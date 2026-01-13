@@ -18,6 +18,6 @@ echo "Building binary..."
 go build -o api main.go
 
 echo "Restarting Systemd service..."
-sudo systemctl restart goserver
+sudo systemctl restart beserver
 
 echo "Deployment finished successfully!"
