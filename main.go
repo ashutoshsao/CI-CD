@@ -8,7 +8,7 @@ import (
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintf(w, "hello from GoLang from aws")
+        fmt.Fprintf(w, "hello from GoLang from aws from github action")
     })
 
     fmt.Println("Server is running on http://localhost:8080")
